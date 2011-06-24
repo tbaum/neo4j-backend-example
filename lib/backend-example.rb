@@ -18,7 +18,7 @@ module Backend
   class App < Sinatra::Base
 
     get '/' do
-      "<h1>Simple-App:</h1>
+      "<h1>Simple-App :</h1>
       <ul>
       <li><a href='create'>./create -> create-node</a></li>
       <li><a href='list'>./list -> all-nodes</a></li>
