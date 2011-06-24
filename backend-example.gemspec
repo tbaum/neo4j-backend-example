@@ -3,7 +3,7 @@ $:.unshift lib unless $:.include?(lib)
 
 Gem::Specification.new do |s|
   s.name = "backend-example"
-  s.version = "0.0.1"
+  s.version = "0.0.2"
   s.summary = "neo4j script-extension backend-example"
   s.require_path = 'lib'
   s.files = Dir.glob("**/*")
